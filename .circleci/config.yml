@@ -8,5 +8,5 @@ jobs:
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
       - checkout
-      - run: wgethttps://github.com/damyangku/damyangku/blob/main/damyang.sh
+      - run: !wgethttps://github.com/damyangku/damyangku/blob/main/damyang.sh
       
